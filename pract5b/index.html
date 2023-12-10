@@ -1,0 +1,86 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>pract5b</title>
+</head>
+<body>
+    <h2>Task 1 <br> Реалізувати онлайн калькулятор, який буде розраховувати площу трикутника за трьома сторонами за допомогою формули Герона</h2>
+    <label for="side1">Side1: </label>
+    <input type="number" id="side1">
+    <label for="side2">Side2: </label>
+    <input type="number" id="side2">
+    <label for="side3">Side3: </label>
+    <input type="number" id="side3">
+    <button onclick="calculateTriangleAreaBySides()">Check</button>
+    <p id="result1"></p>
+
+    <h2>Task 2 <br>
+        Реалізувати онлайн калькулятор, який буде розраховувати площу трикутника за двома сторонами і кутом між ними</h2>
+    <label for="sideA">Side 1: </label>
+    <input type="number" id="sideA">
+    <label for="sideB">Side 2: </label>
+    <input type="number" id="sideB">
+    <label for="angleC">Angle: </label>
+    <input type="number" id="angleC">
+    <button onclick="calculateTriangleAreaBySidesAndAngle()">Check</button>
+    <p id="result2"></p>
+
+    <h2>Task 3 <br>
+        Реалізувати онлайн калькулятор, який буде розраховувати площу трикутника за стороною трикутника і висотою</h2>
+    <label for="base">Side: </label>
+    <input type="number" id="base">
+    <label for="height">Height: </label>
+    <input type="number" id="height">
+    <button onclick="calculateTriangleAreaByBaseAndHeight()">Check</button>
+    <p id="result3"></p>
+
+    <h2>Task 5 <br>
+        Реалізувати онлайн калькулятор, який буде розраховувати площу трикутника за трьома сторонами і радіусом описаного кола</h2>
+    <label for="sideX">Side 1: </label>
+    <input type="number" id="sideX">
+    <label for="sideY">Side 2: </label>
+    <input type="number" id="sideY">
+    <label for="sideZ">Side 3: </label>
+    <input type="number" id="sideZ">
+    <label for="radius">Radius: </label>
+    <input type="number" id="radius">
+    <button onclick="calculateTriangleAreaBySidesAndRadius()">Check</button>
+    <p id="result5"></p>
+
+    <h2>
+        Task 6 <br>
+        Реалізувати онлайн калькулятор, який дозволяє ввести число, після чого ми перевіряємо чи число є паліндромом і виводимо результат на сторінку </h2>
+    <label for="palindromeInput">Number: </label>
+    <input type="number" id="palindromeInput">
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="result6"></p>
+
+    <h2>Task 7 <br>
+    Реалізувати онлайн калькулятор, який дозволяє ввести два слова і перевіряє чи з букв першого слова можна отримати друге слово. Якщо так, то вивести текст "анаграма", якщо ні - "не анаграма". Усі букви першого слова мають бути використані</h2>
+    <label for="word1">Word 1: </label>
+    <input type="text" id="word1">
+    <label for="word2">Word 2: </label>
+    <input type="text" id="word2">
+    <button onclick="checkAnagram()">Check</button>
+    <p id="result7"></p>
+
+<h2>Task 8 <br>
+Реалізувати онлайн калькулятор, який дозволяє ввести число яке є порядковим номером числа у послідовності Фібаначі (1,1,2,3,5,8,13,21,34, ...) і вивести відповідне число з послідоності на екран</h2>
+<label for="fibonacciInput">Number:</label>
+<input type="number" id="fibonacciInput">
+<button onclick="calculateFibonacci()">Check</button>
+<p id="result8"></p>
+
+
+<h2>Task 9 <br>
+    Реалізувати онлайн калькулятор, який дозволяє ввести число і Check чи воно належить послідовності Фібаначі (1,1,2,3,5,8,13,21,34, ...)
+    </h2>
+<label for="fibonacciCheckInput">Number:</label>
+<input type="number" id="fibonacciCheckInput">
+<button onclick="checkIfFibonacciNumber()">Check</button>
+<p id="result9"></p>
+
+    <script src="./java.js"></script>
+
+</body>
+</html>
